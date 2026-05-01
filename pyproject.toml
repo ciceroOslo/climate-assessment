@@ -34,7 +34,7 @@ homepage = "https://github.com/iiasa/climate-assessment"
 packages = [
     {include = "climate_assessment", from = "src"},
 ]
-version = "0.0.0-diamond-d52-0.2"
+version = "0.0.0"
 
 [tool.poetry.dependencies]
 python = ">=3.11,<3.14"
