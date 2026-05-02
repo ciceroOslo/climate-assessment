@@ -308,7 +308,7 @@ def run_harmonization(df, instance, prefix):
             delayed(aneris.convenience.harmonise_all)(
                 msdf,
                 history=history,
-                harmonisation_year=harmonization_year,
+                year=harmonization_year,
                 overrides=overrides,
             )
             for _, msdf in scenarios.groupby(["model", "scenario"])
